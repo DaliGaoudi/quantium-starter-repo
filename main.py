@@ -32,8 +32,6 @@ def main():
     output_df = daily_regional_revenue[["sales", "date", "region"]]
     output_df.to_csv("./data/sales_summary.csv", index=False)
     
-    print("\nSales Summary:")
-    print(output_df)
     
 
 if __name__ == "__main__":    
